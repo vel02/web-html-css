@@ -7,8 +7,12 @@ body {
   font-size: 87%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 header {
-  padding-bottom: 20px;
   padding-top: 20px;
   color: #617140;
 }
@@ -22,6 +26,37 @@ header h1 {
 header p {
   margin: 0;
 }
+
+/* site navigation */
+
+.site-nav {
+  margin-top: 20px;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #617140;
+  padding: 10px 20px;
+  border: 3px solid #e5e9dc;
+  border-bottom: none;
+  display: block;// a type default is inline so use block to avoid overlapping
+}
+
+.site-nav a:hover{
+  background-color: #e5e9dc;
+}
+/* end site navigation */
 
 .container {
   max-width: 940px;
@@ -45,6 +80,32 @@ header p {
   text-align: justify;
   box-sizing: border-box;
 }
+
+/* bannner with positioning */
+
+.image-banner img {
+  display: block;// img default is inline use block to avoid overlapping
+}
+
+.image-banner {
+  position: relative;
+}
+
+.banner-description {
+  background-color: rgb(0,0,0,0.65);
+  padding: 15px 20px;
+  /* positioning */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.banner-description p {
+  color: #fff;
+}
+
+/* end bannner with positioning */
 
 .sidebar {
   width: 34%;
