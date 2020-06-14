@@ -1,0 +1,55 @@
+/*cascade, inheritance, specificity*/
+/*descendant selector is more specifict than type selector*/
+/*deeply descendant selector is more specific than descendant selector*/
+/*class selector is more specific than type or descendant selector*/
+/*descendant selector with a reference to a class is more specific than simple class selector*/
+/*with two rule have identical specifity values  which ever comes last in stylesheet will be followed */
+h1 {
+    font-size: 165%;
+    font-weight: normal;
+}
+
+/*
+body {
+    color: green
+}
+*/
+
+/*type selector*/
+/*
+p {
+    color: green;
+}
+*/
+/*descendant selector*/
+/*
+footer p {
+    color: orange;
+}
+*/
+/*deep descendant selector*/
+/*
+body footer p {
+    color: red;
+}
+*/
+/*class selector*/
+/*
+.highlight {
+    color: purple;
+}
+*/
+/*descendant with reference to class*/
+/*
+footer .highlight {
+    color: blue;
+}*/
+
+/*identical specifity values*/
+p {
+    color: blue;
+}
+
+p {
+    color: blue;
+}

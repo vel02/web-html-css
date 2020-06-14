@@ -1,0 +1,29 @@
+/*type selector ex. h1, p, etc.*/
+h1 {
+	color: orange;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+/*descendant selector*/
+
+header p {
+    color: green;
+}
+
+header span {
+    color: blue;
+}
+
+/*class selector*/
+
+.highlight {
+    background-color: yellow;
+}
+
+footer .highlight {
+    background-color: lightgray
+}
