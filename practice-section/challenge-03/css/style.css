@@ -1,0 +1,110 @@
+/* START-SETUP */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Fredoka One', cursive, Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  overflow-x: hidden;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  color: #555;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+.row {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* END-SETUP */
+
+/* START-NAV-SETUP */
+.section-nav {
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+}
+
+li a {
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 80%;
+  color: wheat;
+}
+
+/* END-NAV-SETUP */
+
+/* START-CONTENT-SETUP */
+.content-one {
+  margin: 0 auto;
+  padding: 20px 300px;
+  height: 150px;
+  color: darkgoldenrod;
+}
+
+.content-one p {
+  font-size: 130%;
+}
+
+.content-two h2 {
+  font-size: 100%;
+  color: #000;
+}
+
+.content-two p {
+  font-family: 'Mansalva', cursive;
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+/* END-CONTENT-SETUP */
+
+
+/* START-FOOTER-SETUP */
+.section-footer {
+  background-color: cadetblue;
+  position: absolute;
+  padding: 20px 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer h6 {
+  color: wheat;
+  float: left;
+}
+
+footer nav {
+  float: right;
+}
+
+ion-icon {
+  color: wheat;
+  padding-left: 10px;
+}
+
+/* END-FOOTER-SETUP */

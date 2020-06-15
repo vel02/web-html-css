@@ -1,0 +1,95 @@
+/* SETUP */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Kanit', sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  font-size: 20px;
+  color: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+.row {
+  width: 940px;
+  margin: 0 auto;
+}
+/* SETUP */
+
+/* CONTENT */
+.section-content {
+  margin-top: 20px;
+}
+
+.section-content h1,
+.section-content h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-content h1 {
+  font-size: 200%;
+}
+
+.section-content h2 {
+  font-weight: 200;
+  font-size: 150%;
+}
+
+.section-content p {
+  column-count: 3;
+  font-weight: 300;
+  font-size: 80%;
+  display: block;
+}
+
+.content-update {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 200;
+  display: block;
+  color: #aaa;
+  font-size: 60%;
+}
+
+hr {
+  border: 1px solid #000;
+  margin: 10px 0;
+  display: block;
+}
+
+/* CONTENT */
+
+/* FOOTER */
+.section-footer {
+  background-color: #000;
+  position: absolute;
+  padding: 10px 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.section-footer p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 60%;
+  color: #fff;
+}
+
+/* FOOTER */

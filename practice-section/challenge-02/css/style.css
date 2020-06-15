@@ -1,0 +1,173 @@
+/* START-SETUP */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-image: linear-gradient(45deg,#4bb1fa,#4b7bec);
+  text-rendering: optimizeLegibility;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  height: 92%;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: ".";
+    clear: both;
+    height: 0;
+}
+
+.row {
+  margin: 0 auto;
+  width: 940px;
+}
+/* END-SETUP */
+
+/* START-HEADER-SETUP */
+header h1,
+header a {
+  color: #4bb1fa;
+}
+header h1 {
+  padding: 5px 0;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+.section-header {
+  background-color: #fff;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-left: 20px;
+  padding: 10px 0;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 80%;
+}
+/* END-HEADER-SETUP */
+
+/* START-CONTENT-SETUP */
+.section-content {
+  position: relative;
+  height: 100%;
+}
+
+.section-content h1 {
+  letter-spacing: 1px;
+  font-size: 100%;
+}
+
+.section-content p {
+  padding-top: 5px;
+  font-size: 55%;
+}
+
+.btn-order {
+  border: 2px solid #ff4545;
+  box-sizing: border-box;
+  background: #ff4545;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 5px;
+  font-size: 55%;
+  float: left;
+}
+
+.btn-order a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content-one,
+.content-two {
+    position: absolute;
+}
+
+.content-one{
+  width: 50%;
+  top: 35%;
+  left: 0;
+}
+.content-two {
+  width: 40%;
+  right: 0;
+  top: 25%;
+}
+
+.box-parent {
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+}
+
+.box-child-left,
+.box-child-right,
+.box-child-bottom {
+  background-color: #fc5c65;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.box-child-top {
+  background: #778ca3;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.box-child-left,
+.box-child-right {
+  padding: 20px;
+  width: 49%;
+}
+
+.box-child-left { float: left;}
+.box-child-right { float: right;}
+
+.box-child-bottom {
+  background-color: #fd9644;
+  padding: 50px;
+  width: 100%;
+  float: left;
+}
+/* END-CONTENT-SETUP */
+
+
+/* START-FOOTER-SETUP */
+.section-footer {
+  background-color: #fff;
+  position: absolute;
+  padding: 20px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 60%;
+  color: #555;
+}
+/* END-FOOTER-SETUP */
