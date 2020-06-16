@@ -1,0 +1,162 @@
+html{
+  background-color: #869960;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 87%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding-top: 20px;
+  color: #617140;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 165%; // 25px
+}
+
+header p {
+  margin: 0;
+}
+
+/* site navigation */
+
+.site-nav {
+  margin-top: 20px;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #617140;
+  padding: 10px 20px;
+  border: 3px solid #e5e9dc;
+  border-bottom: none;
+  display: block;// a type default is inline so use block to avoid overlapping
+}
+
+.site-nav a:hover{
+  background-color: #e5e9dc;
+}
+/* end site navigation */
+
+.container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.content-area{
+  border-top: 3px solid #e5e9dc;
+  border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+  padding-right: 40px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.main-area h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/* table style */
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%
+}
+
+table th {
+  text-align: left;
+  background-color: #869960;
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+table th,
+table td {
+  border: 1px solid #869960;
+  padding: 10px;
+  vertical-align: top;
+}
+
+table tbody tr:nth-child(even){
+  background-color: #e5e9dc;
+}
+
+.col-item-name {
+  width: 60%;
+}
+
+.col-item-quantity,
+.col-item-price {
+  width: 20%;
+}
+
+table.grocery-list tr :nth-child(2),
+table.grocery-list tr :nth-child(3) {
+  text-align: center;
+}
+/* table style */
+
+.sidebar {
+  width: 34%;
+  float: left;
+  background-color: #e5e9dc;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: 85%;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+/* clearfix code */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+/* clearfix code */
